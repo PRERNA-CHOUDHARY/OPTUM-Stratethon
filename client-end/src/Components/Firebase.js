@@ -2,14 +2,14 @@ import firebase from "firebase/compat/app";
 import "firebase/compat/firestore";
 
 var firebaseApp = firebase.initializeApp({
-    apiKey: "AIzaSyD_u9eyu8hIww9XR0bRFwmzSI0DahqIoX4",
-    authDomain: "medicwise-3c83c.firebaseapp.com",
+    apiKey: "<YOUR_API_KEY>",
+    authDomain: "<YOUR_AUTH_DOMAIN>",
     databaseURL:
-        "https://medicwise-3c83c-default-rtdb.asia-southeast1.firebasedatabase.app",
-    projectId: "medicwise-3c83c",
-    storageBucket: "medicwise-3c83c.appspot.com",
-    messagingSenderId: "144538501156",
-    appId: "1:144538501156:web:a99201d9ba8c4103a658b1",
+        "<YOUR_DATABASE_URL>",
+    projectId: "<YOUR_PROJECT_ID>",
+    storageBucket: "<YOUR_STORAGE_BUCKET>",
+    messagingSenderId: "<YOUR_MESSAGING_SENDER_ID>",
+    appId: "<YOUR_APP_ID>",
 });
 
 const db = firebaseApp.firestore();
