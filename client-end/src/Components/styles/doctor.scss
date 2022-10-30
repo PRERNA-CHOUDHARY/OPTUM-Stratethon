@@ -1,0 +1,86 @@
+.doctor {
+    .card {
+        width: 350px;
+        background-color: white;
+        border: none;
+        cursor: pointer;
+        transition: all 0.5s;
+    }
+
+    .card:hover {
+        box-shadow: 0 0 15px rgba(156, 149, 149, 0.2);
+    }
+
+    .image img {
+        transition: all 1s;
+    }
+
+    .card:hover .image img {
+        transform: scale(1.5);
+    }
+
+    .btn {
+        height: 140px;
+        width: 140px;
+        border-radius: 50%;
+    }
+
+    .name {
+        font-size: 22px;
+        font-weight: bolder;
+    }
+
+    .idd {
+        background-color: #ebf2f8;
+        font-size: 12px;
+        font-weight: 800;
+    }
+
+    .idd1 {
+        font-size: 12px;
+    }
+
+    .number {
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .follow {
+        font-size: 12px;
+        font-weight: 500;
+        color: #020202;
+    }
+
+    .btn1 {
+        height: 40px;
+        width: 150px;
+        border: none;
+        background-color: #000;
+        color: #aeaeae;
+        font-size: 15px;
+    }
+
+    .text span {
+        font-size: 15px;
+        color: #545454;
+        font-weight: 500;
+    }
+
+    .icons i {
+        font-size: 19px;
+    }
+
+    hr .new1 {
+        border: 1px solid;
+    }
+
+    .join {
+        font-size: 14px;
+        color: #a0a0a0;
+        font-weight: bold;
+    }
+
+    .date {
+        background-color: #ccc;
+    }
+}

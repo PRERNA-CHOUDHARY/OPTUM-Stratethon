@@ -1,0 +1,441 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+body {
+    background-color: #ebf2f8;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0%;
+    padding: 0%;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.quick {
+    font-family: "Quicksand", sans-serif;
+}
+
+.poppins {
+    font-family: "Poppins", sans-serif !important;
+    font-size: 14px;
+}
+
+.header-navbar img {
+    height: 40px;
+    width: 60px;
+    padding-right: 10px;
+    left: 50;
+}
+
+.hr {
+    margin-top: -11px;
+    margin-left: 140px;
+    height: 10px !important;
+    width: 70px;
+
+    border: none;
+    background-color: rgb(50, 50, 50);
+}
+
+.hr2 {
+    margin-top: 25px;
+    margin-left: -80px;
+    height: 10px !important;
+    width: 110px;
+
+    border: none;
+    background-color: rgb(50, 50, 50);
+}
+
+.spltter-home {
+    padding-top: 50px;
+}
+.navbar-header {
+    font-family: "Poppins", sans-serif;
+    color: black;
+    font-size: 24px;
+    font-weight: bolder;
+    padding-left: 10px;
+}
+.color-header {
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+    padding-left: 25px;
+}
+.color-header:hover {
+    border-bottom: 1px solid rgb(50, 50, 50);
+}
+.main-body-home {
+    color: #fff;
+}
+.main-body-home img {
+    height: 510px;
+    width: 650px;
+}
+
+.doc {
+    height: auto !important;
+    width: auto !important;
+}
+.main-body-home .doctor-image {
+    height: 420px;
+}
+.main-body-home .row {
+    padding-bottom: 60px;
+}
+.quotes-doctor {
+    font-family: "Poppins", sans-serif;
+    color: black;
+    padding-top: 100px;
+}
+.quotes-doctor h4 {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.quotes-doctor h6 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 25px;
+}
+.quotes-doctor p {
+    padding-top: 20px;
+    align-items: center;
+}
+.button-padding {
+    padding-left: 20px;
+}
+.quotes-doctor-right {
+    padding-right: 40px;
+}
+.chat-css {
+    width: 100vw;
+    height: 100vh;
+    color: #212121;
+    font-family: "Open Sans", sans-serif;
+    display: grid;
+    place-items: center;
+}
+
+.kard:hover {
+    box-shadow: 0 0 15px rgba(33, 33, 33, 0.2);
+}
+
+.vid {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
+
+.joinChatContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+.joinChatContainer h3 {
+    color: rgb(50, 50, 50);
+    font-size: 2.5rem;
+    margin-right: 80px;
+    margin-bottom: 1rem;
+}
+.joinChatContainer input {
+    width: 210px;
+    height: 40px;
+    margin: 7px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.joinChatContainer button {
+    width: 210px;
+    height: 50px;
+    margin: 7px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+    background: rgb(50, 50, 50);
+    color: #fff;
+    cursor: pointer;
+}
+
+.joinChatContainer button:hover {
+    background: #000000;
+}
+
+.chat-window {
+    width: 300px;
+    height: 420px;
+}
+
+.chat-window p {
+    margin: 0;
+}
+.chat-window .chat-header {
+    height: 45px;
+
+    background: #263238;
+    border: 0.1px solid rgb(29, 29, 29);
+    position: relative;
+    cursor: pointer;
+}
+.chat-window .chat-header p {
+    display: block;
+    padding: 0 1em 0 2em;
+    color: #fff;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.chat-window .chat-body {
+    height: calc(450px - (45px + 70px));
+    border: 0.1px solid rgb(0, 0, 0);
+    position: relative;
+}
+.chat-window .chat-body .message-container {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.chat-window .chat-body .message-container::-webkit-scrollbar {
+    display: none;
+}
+.chat-window .chat-body .message {
+    height: auto;
+    padding: 10px;
+    display: flex;
+}
+
+.chat-window .chat-body .message .message-content {
+    width: auto;
+    height: auto;
+    min-height: 40px;
+    max-width: 120px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    color: rgb(20, 20, 20);
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+#you {
+    justify-content: flex-start;
+}
+
+#you .message-content {
+    justify-content: flex-start;
+}
+
+#you .message-meta {
+    justify-content: flex-start;
+    margin-left: 5px;
+    color: rgb(0, 0, 0);
+}
+
+#other {
+    justify-content: flex-end;
+}
+
+#other .message-content {
+    justify-content: flex-end;
+    background-color: rgb(195, 195, 195);
+}
+
+#other .message-meta {
+    justify-content: flex-end;
+    margin-right: 5px;
+    color: rgb(0, 0, 0);
+}
+
+.message-meta #author {
+    margin-left: 7px;
+    margin-right: 3px;
+    font-weight: bold;
+}
+
+.chat-window .chat-body .message .message-meta {
+    display: flex;
+    font-size: 12px;
+}
+
+.chat-window .chat-footer {
+    height: 40px;
+    border: 1px solid rgb(0, 0, 0);
+    border-top: none;
+    display: flex;
+}
+
+.chat-window .chat-footer input {
+    height: 100%;
+    flex: 85%;
+    border: 0;
+    padding: 0 0.7em;
+    font-size: 1em;
+    border-right: 1px dotted #fff;
+
+    outline: none;
+    font-family: "Open Sans", sans-serif;
+}
+
+.chat-window .chat-footer button {
+    border: 0;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    flex: 15%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    font-size: 25px;
+    color: rgb(166, 166, 166);
+}
+
+.chat-window .chat-footer button:hover {
+    color: #000000;
+}
+.hide {
+    opacity: 0 !important;
+}
+
+.chat-css-gesture {
+    width: 100vw;
+    height: 100vh;
+    color: #212121;
+    font-family: "Open Sans", sans-serif;
+    display: grid;
+    place-items: center;
+    padding-left: 500px;
+}
+.chat-window-gesture .chat-body .message .message-meta {
+    display: flex;
+    font-size: 12px;
+}
+
+.chat-window-gesture .chat-footer {
+    height: 40px;
+    border: 1px solid rgb(0, 0, 0);
+    border-top: none;
+    display: flex;
+}
+
+.chat-window-gesture .chat-footer input {
+    height: 100%;
+    flex: 85%;
+    border: 0;
+    padding: 0 0.7em;
+    font-size: 1em;
+    border-right: 1px dotted rgb(0, 0, 0);
+    outline: none;
+    font-family: "Open Sans", sans-serif;
+}
+
+.chat-window-gesture .chat-footer button {
+    border: 0;
+    display: grid;
+    cursor: pointer;
+    flex: 15%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    font-size: 25px;
+    color: lightgray;
+}
+
+.chat-window-gesture .chat-footer button:hover {
+    color: #000000;
+}
+.chat-window-gesture {
+    width: 300px;
+    height: 420px;
+}
+
+.chat-window-gesture p {
+    margin: 0;
+}
+.chat-window-gesture .chat-header {
+    height: 45px;
+    background: #263238;
+    border: 0.1px solid rgb(0, 0, 0);
+    position: relative;
+    cursor: pointer;
+}
+.chat-window-gesture .chat-header p {
+    display: block;
+    padding: 0 1em 0 2em;
+    color: #fff;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.chat-window-gesture .chat-body {
+    height: calc(450px - (45px + 70px));
+    border: 0.1px solid rgb(0, 0, 0);
+    position: relative;
+}
+.chat-window-gesture .chat-body .message-container {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.chat-window-gesture .chat-body .message-container::-webkit-scrollbar {
+    display: none;
+}
+.chat-window-gesture .chat-body .message {
+    height: auto;
+    padding: 10px;
+    display: flex;
+}
+
+.chat-window-gesture .chat-body .message .message-content {
+    width: auto;
+    height: auto;
+    min-height: 40px;
+    max-width: 120px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    color: black;
+    display: flex;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+.footer-text div {
+    color: #fff;
+}
+.footer-text p {
+    font-size: 10px;
+    color: #fff;
+}
+.form-header {
+    color: black;
+    padding-top: 10px;
+    font-weight: 500;
+}
+.form_label {
+    color: rgb(0, 0, 0);
+}
